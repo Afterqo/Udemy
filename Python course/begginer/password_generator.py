@@ -41,6 +41,7 @@ for i in range(pw_length):
         hard_password += random.choice(numbers)
 
 random.shuffle(hard_password)
+
 password = ""
 for char in hard_password:
     password += char
